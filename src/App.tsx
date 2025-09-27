@@ -74,7 +74,7 @@ function App() {
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center space-x-2">
               <img
-                src="pictures\Logo_Transparent_1.png"
+                src="/Logo_Transparent_1.png"
                 alt="SoarInnovations"
                 className="h-8 w-auto"
               />
@@ -156,7 +156,7 @@ function App() {
         <div className="relative z-10 text-center max-w-4xl mx-auto">
           <div className="mb-12 animate-fadeIn">
             <img
-              src="pictures\Logo_Transparent_1.png"
+              src="/Logo_Transparent_1.png"
               alt="SoarInnovations"
               className="h-32 sm:h-40 md:h-48 w-auto mx-auto mb-8"
             />
@@ -253,10 +253,10 @@ function App() {
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
             {[
-              { name: "Sam", role: "Co-Founder", img: "pictures/sam1.jpg", link: "https://www.linkedin.com/in/sam-singh-49ba85196/" },
-              { name: "Omar", role: "Co-Founder", img: "pictures/omar.png", link: "https://www.linkedin.com/in/omar-rahman-b9897320b/" },
-              { name: "Andre", role: "Co-Founder", img: "pictures/andre.jpeg", link: "https://www.linkedin.com/in/aevogel/" },
-              { name: "Ruslan", role: "Co-Founder", img: "pictures/ruslan.png", link: "https://www.linkedin.com/in/ruslan-barshigov-999401265/" },
+              { name: "Sam", role: "Co-Founder", img: "/sam1.jpg", link: "https://www.linkedin.com/in/sam-singh-49ba85196/" },
+              { name: "Omar", role: "Co-Founder", img: "/omar.png", link: "https://www.linkedin.com/in/omar-rahman-b9897320b/" },
+              { name: "Andre", role: "Co-Founder", img: "/andre.jpeg", link: "https://www.linkedin.com/in/aevogel/" },
+              { name: "Ruslan", role: "Co-Founder", img: "/ruslan.png", link: "https://www.linkedin.com/in/ruslan-barshigov-999401265/" },
             ].map((founder, index) => (
               <a
                 key={index}
@@ -318,7 +318,7 @@ function App() {
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <div className="flex items-center space-x-2">
               <img
-                src="pictures\Logo_Transparent_1.png"
+                src="/Logo_Transparent_1.png"
                 alt="SoarInnovations"
                 className="h-8 w-auto"
               />
