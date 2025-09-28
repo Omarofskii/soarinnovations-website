@@ -254,7 +254,7 @@ function App() {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
             {[
               { name: "Sam", role: "Co-Founder", img: "/sam1.jpg", link: "https://www.linkedin.com/in/sam-singh-49ba85196/" },
-              { name: "Omar", role: "Co-Founder", img: "/omar.png", link: "https://www.linkedin.com/in/omar-rahman-b9897320b/" },
+              { name: "Omar", role: "Co-Founder", img: "/omar1.png", link: "https://www.linkedin.com/in/omar-rahman-b9897320b/" },
               { name: "Andre", role: "Co-Founder", img: "/andre.jpeg", link: "https://www.linkedin.com/in/aevogel/" },
               { name: "Ruslan", role: "Co-Founder", img: "/ruslan.png", link: "https://www.linkedin.com/in/ruslan-barshigov-999401265/" },
             ].map((founder, index) => (
