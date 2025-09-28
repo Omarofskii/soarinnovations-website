@@ -255,7 +255,7 @@ function App() {
             {[
               { name: "Sam", role: "Co-Founder", img: "/sam1.jpg", link: "https://www.linkedin.com/in/sam-singh-49ba85196/" },
               { name: "Omar", role: "Co-Founder", img: "/omar1.png", link: "https://www.linkedin.com/in/omar-rahman-b9897320b/" },
-              { name: "Andre", role: "Co-Founder", img: "/andre1.jpeg", link: "https://www.linkedin.com/in/aevogel/" },
+              { name: "Andre", role: "Co-Founder", img: "/andre1.png", link: "https://www.linkedin.com/in/aevogel/" },
               { name: "Ruslan", role: "Co-Founder", img: "/ruslan.png", link: "https://www.linkedin.com/in/ruslan-barshigov-999401265/" },
             ].map((founder, index) => (
               <a
