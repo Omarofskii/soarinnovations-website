@@ -11,6 +11,7 @@ import {
   X
 } from 'lucide-react';
 import { useEffect, useState } from 'react';
+import NewsletterForm from './NewsletterForm';
 
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -308,6 +309,54 @@ function App() {
             <p className="text-gray-400">
               We'd love to hear about your project and explore how we can help you achieve your goals.
             </p>
+            {/* Newsletter Subscription */}
+            <div className="mt-10">
+              <h3 className="text-2xl font-semibold text-white mb-4">
+                Subscribe to Our Newsletter
+              </h3>
+              <p className="text-gray-400 mb-6">
+                Stay updated with the latest insights and innovations.
+              </p>
+              <div className="w-full max-w-xl mx-auto">
+                <NewsletterForm />
+                {/* <form
+                  onSubmit={(e) => {
+                    e.preventDefault();
+                    const form = e.currentTarget as HTMLFormElement;
+                    const formData = new FormData(form);
+
+                    fetch(
+                      "https://docs.google.com/forms/u/0/d/e/1FAIpQLScf9F9exnIWYY-FQsHJd3oB148F2oXo67QLSi8nPYTCXsh3Qg/formResponse",
+                      {
+                        method: "POST",
+                        body: formData,
+                        mode: "no-cors",
+                      }
+                    );
+
+                    form.reset();
+                    alert("✅ Thanks for subscribing!");
+                  }}
+                  className="flex flex-col sm:flex-row justify-center items-center gap-4 max-w-xl mx-auto mt-8"
+                >
+                  <input
+                    type="email"
+                    name="entry.257086240"
+                    placeholder="Enter your email"
+                    required
+                    className="w-full sm:flex-1 px-4 py-3 rounded-lg bg-gray-900 border border-gray-700 text-white placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-gray-500"
+                  />
+                  <button
+                    type="submit"
+                    className="px-6 py-3 rounded-lg bg-gradient-to-r from-gray-700 to-gray-600 hover:from-gray-600 hover:to-gray-500 text-white font-semibold transition duration-300"
+                  >
+                    Subscribe
+                  </button>
+                </form> */}
+
+
+              </div>
+            </div>
           </div>
         </div>
       </section>
